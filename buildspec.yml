@@ -13,5 +13,7 @@ phases:
   build:
     commands:
         - pwd
-        - git status
-        - ls -ltra .git/
+        - ls -ltra
+        - mkdir test
+        - cd test
+        - ls -ltra

@@ -1,0 +1,17 @@
+version: 0.2
+
+env:
+  variables:
+    IMAGE_REPO_NAME: "test-felipe"
+
+phases:
+
+  pre_build:
+    commands:
+        - echo hi
+
+  build:
+    commands:
+        - pwd
+        - git status
+        - ls -ltra .git/

@@ -12,8 +12,9 @@ phases:
 
   build:
     commands:
+        - echo "This is the root dir of my build"
         - pwd
-        - ls -ltra
         - mkdir test
         - cd test
-        - ls -ltra
+        - echo "This is one dir above"
+        - pwd

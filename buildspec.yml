@@ -14,7 +14,8 @@ phases:
     commands:
         - echo "This is the root dir of my build"
         - pwd
-        - mkdir test
-        - cd test
-        - echo "This is one dir above"
-        - pwd
+        - virtualenv venv
+        - source venv/bin/activate
+        - pip install -r requirements.txt
+        - echo "done!"
+

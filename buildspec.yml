@@ -19,5 +19,6 @@ phases:
         - ls -ltra
         - /bin/bash --rcfile /venv/bin/activate
         - pip install -r requirements.txt
+        - python app.py
         - echo "done!"
 

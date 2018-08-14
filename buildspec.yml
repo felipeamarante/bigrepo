@@ -17,8 +17,9 @@ phases:
         - virtualenv venv
         - . venv/bin/activate
         - ls -ltra
+        - pip list
         - /bin/bash --rcfile /venv/bin/activate
         - pip install -r requirements.txt
-        - python app.py
+        - pip list
         - echo "done!"
 

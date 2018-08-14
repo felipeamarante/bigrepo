@@ -14,9 +14,9 @@ phases:
     commands:
         - echo "This is the root dir of my build"
         - pwd
-        - apt-get install -y source
         - virtualenv venv
-        - source venv/bin/activate
+        - ls -ltra
+        - /bin/bash --rcfile /venv/bin/activate
         - pip install -r requirements.txt
         - echo "done!"
 

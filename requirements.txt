@@ -1,2 +1,8 @@
 flask
 boto3
+certifi
+urllib3
+requests
+pyjwt
+pymongo
+pluggy

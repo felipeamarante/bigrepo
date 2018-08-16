@@ -15,7 +15,7 @@ phases:
         - echo "This is the root dir of my build"
         - pwd
         - pip list
-        - virtualenv -p python3.python
+        - virtualenv -p python3 .python
         - . .python/bin/activate
         - ls -ltra
         - pip list

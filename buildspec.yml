@@ -22,6 +22,4 @@ phases:
         - pip install -r requirements.txt
         - pip list
         - echo "done!"
-        - echo "but this will fail"
-        - exit 1
 

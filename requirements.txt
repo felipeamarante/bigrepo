@@ -6,3 +6,4 @@ requests
 pyjwt
 pymongo
 pluggy
+git+git://github.com/Miserlou/Zappa.git@master
